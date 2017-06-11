@@ -13,11 +13,19 @@ $engine->display('header.tpl');
 // Current page controller
 
 switch($pagina) {
+  case "index":
+    require 'model/class.index.php';
+    $engine->assign('index_text', $index_text);
+    $engine->display('index.tpl');
+    break;
+
   case "contact":
     $engine->display('contact.tpl');
     break;
 
   default:
+    require 'model/class.index.php';
+    $engine->assign('index_text', $index_text);
     $engine->display('index.tpl');
     break;
 }
