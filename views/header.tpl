@@ -43,9 +43,9 @@
           {if isset($username)}
           <li><a  href="account"><i class="fa fa-user-o" aria-hidden="true"></i> account ({$username})</a></li>
 
-          <li><a href="uitloggen"><i class="fa fa-angle-right" aria-hidden="true"></i> Uitloggen</a></li>
+          <li><a href="uitloggen"><i class="fa fa-angle-right" aria-hidden="true"></i> Log uit</a></li>
           {else}
-          <li><a  href="login"><i class="fa fa-user-o" aria-hidden="true"></i> Login</a></li>
+          <li><a  href="login"><i class="fa fa-user-o" aria-hidden="true"></i> Log in</a></li>
 
           <li><a href="registreren"><i class="fa fa-angle-right" aria-hidden="true"></i> Registreren</a></li>
           {/if}

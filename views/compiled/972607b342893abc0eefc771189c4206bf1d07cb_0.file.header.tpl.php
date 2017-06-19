@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-06-19 11:42:33
+/* Smarty version 3.1.30, created on 2017-06-19 12:02:10
   from "C:\Users\Nick\Desktop\Bewijzenmap\p1.4\PROJECT\views\header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59479c8904eb68_88574526',
+  'unifunc' => 'content_5947a1226c8185_79830120',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '972607b342893abc0eefc771189c4206bf1d07cb' => 
     array (
       0 => 'C:\\Users\\Nick\\Desktop\\Bewijzenmap\\p1.4\\PROJECT\\views\\header.tpl',
-      1 => 1497865350,
+      1 => 1497866527,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59479c8904eb68_88574526 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5947a1226c8185_79830120 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -83,9 +83,9 @@ function content_59479c8904eb68_88574526 (Smarty_Internal_Template $_smarty_tpl)
           <li><a  href="account"><i class="fa fa-user-o" aria-hidden="true"></i> account (<?php echo $_smarty_tpl->tpl_vars['username']->value;?>
 )</a></li>
 
-          <li><a href="uitloggen"><i class="fa fa-angle-right" aria-hidden="true"></i> Uitloggen</a></li>
+          <li><a href="uitloggen"><i class="fa fa-angle-right" aria-hidden="true"></i> Log uit</a></li>
           <?php } else { ?>
-          <li><a  href="login"><i class="fa fa-user-o" aria-hidden="true"></i> Login</a></li>
+          <li><a  href="login"><i class="fa fa-user-o" aria-hidden="true"></i> Log in</a></li>
 
           <li><a href="registreren"><i class="fa fa-angle-right" aria-hidden="true"></i> Registreren</a></li>
           <?php }?>
