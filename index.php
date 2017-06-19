@@ -61,6 +61,10 @@ switch($pagina) {
     $engine->display('registreren.tpl');
     break;
 
+  case "account":
+    $engine->display('account.tpl');
+    break;
+
   case "uitloggen":
     require 'model/class.uitloggen.php';
     break;
