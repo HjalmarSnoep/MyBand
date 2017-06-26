@@ -5,3 +5,7 @@ MyBand is een project voor periode 4, leerjaar 1. Het is een Content Management 
 # Uniek aan dit concept is:
 
 Ik wil mij graag onscherscheiden van concurrenten om de website simpel en duidelijk te houden, toch met vele unieke functies. Zoals het discussieren met andere website leden d.m.v. het forum systeem die ik ga implementeren. En bijvoorbeeld het meteen op de hoogte zijn van nieuwe muziek, en eventuele tour informatie.
+
+##Livedemo
+
+http://22406.hosts.ma-cloud.nl/Logic/index
